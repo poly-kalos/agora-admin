@@ -4,7 +4,7 @@
     { "src": "package.json", "use": "@now/next" }
   ],
   "name": "agora-admin",
-  "alias": "agora-admin-test",
+  "alias": "agora-admin",
   "env": {
     "NODE_ENV": "production"
   }
