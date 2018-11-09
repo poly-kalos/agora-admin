@@ -29,6 +29,7 @@ const PostLink = ({ post }) => (
 
 const Index = (props) => (
   <Layout>
+  <h1>TEST</h1>
   <h1>My Blog</h1>
     <ul>
       {props.posts.map((post) => (
