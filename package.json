@@ -1,0 +1,31 @@
+{
+  "name": "agora-admin",
+  "version": "1.0.0",
+  "description": "admin for agora",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js",
+    "deploy-test": "now && now alias -A ./now.test.json",
+    "deploy-prod": "now && now alias"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poly-kalos/agora-admin.git"
+  },
+  "author": "poly-kalos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/poly-kalos/agora-admin/issues"
+  },
+  "homepage": "https://github.com/poly-kalos/agora-admin#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^7.0.2",
+    "react": "^16.6.1",
+    "react-dom": "^16.6.1",
+    "react-markdown": "^4.0.3"
+  }
+}
