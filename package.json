@@ -4,9 +4,9 @@
   "description": "admin for agora",
   "main": "index.js",
   "scripts": {
-    "dev": "NODE_ENV=development node server.js",
+    "dev": "next",
     "build": "next build",
-    "start": "NODE_ENV=production node server.js",
+    "start": "next start",
     "deploy-test": "now",
     "deploy-prod": "now && now alias"
   },
