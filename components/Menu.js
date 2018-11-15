@@ -12,6 +12,12 @@ const Menu = () => (
         <Link href="/about">
           <a style={linkStyle}>About</a>
         </Link>
+        <Link href="/admin">
+          <a style={linkStyle}>Admin</a>
+        </Link>
+        <Link href="/login">
+          <a style={linkStyle}>Login</a>
+        </Link>
     </div>
 )
 
